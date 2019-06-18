@@ -1,6 +1,5 @@
 # Your code goes here!
 class Anagram
-  @anagram = anagram
   @@all = []
 
   def initialize(word)
@@ -13,6 +12,6 @@ class Anagram
       word.split("")
     else
       word
-    end  
+    end
   end
 end
