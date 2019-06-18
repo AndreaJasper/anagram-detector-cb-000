@@ -6,7 +6,7 @@ class Anagram
     @word = word
   end
 
-  def word.match
+  def word.match(word)
   word = []
     if word == word
       word.split("")
