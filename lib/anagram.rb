@@ -1,21 +1,16 @@
 # Your code goes here!
 class Anagram
-  @@all = []
-
   def initialize(word)
     @word = word
   end
 
-  def word.match(word)
-  word = []
-    if word == word
-      word.split("")
-    else
-      word
+  def match(word)
+  new_word = []
+    word.each {|arr|
+    if arr.split("").sort == @word.split("").sort
+      new_word << arr
     end
-  end
-
-  def self.all
-    @@all
+  }
+  new_word
   end
 end
