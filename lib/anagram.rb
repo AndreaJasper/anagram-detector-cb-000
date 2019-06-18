@@ -13,5 +13,6 @@ class Anagram
       word.split("")
     else
       word
+    end  
   end
 end
