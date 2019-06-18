@@ -13,7 +13,5 @@ class Anagram
       word.split("")
     else
       word
-    #should return all possible matches
-    #return empty arrap if no match exists
   end
 end
