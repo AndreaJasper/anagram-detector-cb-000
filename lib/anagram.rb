@@ -8,8 +8,11 @@ class Anagram
   end
 
   def word.match
-    array = []
-    if
+  word = []
+    if word == word
+      word.split("")
+    else
+      word
     #should return all possible matches
     #return empty arrap if no match exists
   end
